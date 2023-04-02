@@ -1,7 +1,7 @@
 proxies:
 - name: danu01_Universal_LiveCtn01
   type: trojan
-  server: beacon.liveon.id
+  server: 104.21.8.121
   port: 443
   password: d1030ea7-170a-46a2-8e50-6c571023ea69
   udp: true
