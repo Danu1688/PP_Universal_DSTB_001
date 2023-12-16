@@ -1,5 +1,5 @@
 proxies:
-- name: DanuAkamai_Live_IP1
+- name: DanuAkamai1_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_IP2
+- name: DanuAkamai1_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_IP3
+- name: DanuAkamai1_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_IP4
+- name: DanuAkamai1_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -55,7 +55,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_IP5
+- name: DanuAkamai1_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_H1
+- name: DanuAkamai1_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -83,7 +83,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_H2
+- name: DanuAkamai1_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -97,7 +97,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuAkamai_Live_IP1
+- name: DanuAkamai2_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -111,7 +111,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_IP2
+- name: DanuAkamai2_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -125,7 +125,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_IP3
+- name: DanuAkamai2_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -139,7 +139,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_IP4
+- name: DanuAkamai2_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -153,7 +153,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_IP5
+- name: DanuAkamai2_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -167,7 +167,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_H1
+- name: DanuAkamai2_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -181,7 +181,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuAkamai_Live_H2
+- name: DanuAkamai2_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -195,7 +195,7 @@ proxies:
     headers:
       Host: id.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_IP1
+- name: DanuSgAkamai1_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -209,7 +209,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_IP2
+- name: DanuSgAkamai1_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -223,7 +223,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_IP3
+- name: DanuSgAkamai1_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -237,7 +237,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_IP4
+- name: DanuSgAkamai1_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -251,7 +251,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_IP5
+- name: DanuSgAkamai1_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -265,7 +265,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_H1
+- name: DanuSgAkamai1_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -279,7 +279,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_H2
+- name: DanuSgAkamai1_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -293,7 +293,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: br-lanmac0
-- name: DanuSgAkamai_Live_IP1
+- name: DanuSgAkamai2_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -307,7 +307,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_IP2
+- name: DanuSgAkamai2_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -321,7 +321,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_IP3
+- name: DanuSgAkamai2_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -335,7 +335,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_IP4
+- name: DanuSgAkamai2_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -349,7 +349,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_IP5
+- name: DanuSgAkamai2_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -363,7 +363,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_H1
+- name: DanuSgAkamai2_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -377,7 +377,7 @@ proxies:
     headers:
       Host: sg1-linode.dstb.cloud
   interface-name: eth1
-- name: DanuSgAkamai_Live_H2
+- name: DanuSgAkamai2_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
