@@ -1,54 +1,99 @@
 proxies:
-- name: danu01_Universal_LiveMelbi01a
+- name: DanuAkamai_Live_IP1
   type: trojan
-  server: 104.21.8.121
+  server: 104.17.224.203
   port: 443
-  password: e7aeafdf-6d0f-4745-a1b7-0dd4f40e6473
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
   udp: true
-  sni: sg-melbi2.rajs-vpn.xyz
+  sni: id.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: sg-melbi2.rajs-vpn.xyz
-- name: danu01_Universal_LiveMelbi01b
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_IP2
   type: trojan
-  server: 172.67.139.111
+  server: 104.16.143.190
   port: 443
-  password: e7aeafdf-6d0f-4745-a1b7-0dd4f40e6473
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
   udp: true
-  sni: sg-melbi2.rajs-vpn.xyz
+  sni: id.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: sg-melbi2.rajs-vpn.xyz
-- name: danu01_Universal_LiveMelbi01c
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamai_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: e7aeafdf-6d0f-4745-a1b7-0dd4f40e6473
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
   udp: true
-  sni: sg-melbi2.rajs-vpn.xyz
+  sni: id.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: sg-melbi2.rajs-vpn.xyz
-- name: danu01_Universal_LiveCtn01
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: d1030ea7-170a-46a2-8e50-6c571023ea69
-  udp: true
-  sni: sg-ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-ctn.sshpremium.my.id
-
+      Host: id.dstb.cloud
+  interface-name: br-lanmac0
