@@ -110,6 +110,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -123,6 +124,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -136,6 +138,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -149,6 +152,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -162,6 +166,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_H1
   type: trojan
   server: circles.asia
@@ -175,6 +180,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
 - name: DanuAkamaiB1_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -188,3 +194,200 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuAkamaiA2_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: ca6bee78-34ab-4c2a-ae4e-ac75fc5cc1c1
+  udp: true
+  sni: id.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiB2_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 3ccb2294-67f0-4f04-aa6b-4f69cab6a49f
+  udp: true
+  sni: id2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.cloud
+  interface-name: eth1
