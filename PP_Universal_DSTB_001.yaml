@@ -12,7 +12,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -26,7 +26,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -40,7 +40,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -54,7 +54,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -68,7 +68,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_H1
   type: trojan
   server: circles.asia
@@ -82,7 +82,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAtha1_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -96,7 +96,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: id3.myserver-prem.xyz
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -110,7 +110,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -124,7 +124,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -138,7 +138,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -152,7 +152,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -166,7 +166,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_H1
   type: trojan
   server: circles.asia
@@ -180,7 +180,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA1_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -194,7 +194,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -208,7 +208,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -222,7 +222,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -236,7 +236,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -250,7 +250,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -264,7 +264,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_H1
   type: trojan
   server: circles.asia
@@ -278,7 +278,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiB1_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -292,7 +292,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: br-lanmac0
+  interface-name: eth1
 - name: DanuAkamaiA2_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -306,7 +306,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -320,7 +320,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -334,7 +334,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -348,7 +348,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -362,7 +362,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_H1
   type: trojan
   server: circles.asia
@@ -376,7 +376,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiA2_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -390,7 +390,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -404,7 +404,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -418,7 +418,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -432,7 +432,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -446,7 +446,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -460,7 +460,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_H1
   type: trojan
   server: circles.asia
@@ -474,7 +474,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
 - name: DanuAkamaiB2_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -488,4 +488,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.cloud
-  interface-name: eth1
+  interface-name: eth2
