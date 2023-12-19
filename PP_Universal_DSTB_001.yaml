@@ -1,5 +1,33 @@
 proxies:
-- name: DanuAkamaiA1_Live_IP1
+- name: DanuDo1_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+  interface-name: eth1
+- name: DanuDo1_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+  interface-name: eth1
+- name: DanuAkamaiA2_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -12,8 +40,8 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
-- name: DanuAkamaiA1_Live_IP2
+  interface-name: eth2
+- name: DanuAkamaiA2_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -26,33 +54,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-  interface-name: eth1
-- name: DanuAtha2_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: 42424875-43f3-4185-9e4b-a761cc6a1999
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
   interface-name: eth2
-- name: DanuAtha2_Live_IP2
-  type: trojan
-  server: 104.16.143.190
-  port: 443
-  password: 42424875-43f3-4185-9e4b-a761cc6a1999
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-  interface-name: eth2
-
