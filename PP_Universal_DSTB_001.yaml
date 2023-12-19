@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_IP2
   type: trojan
@@ -19,13 +19,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_IP3
   type: trojan
@@ -33,13 +33,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_IP4
   type: trojan
@@ -47,13 +47,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_IP5
   type: trojan
@@ -61,13 +61,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_H1
   type: trojan
@@ -75,13 +75,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAtha1_Live_H2
   type: trojan
@@ -89,13 +89,13 @@ proxies:
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
-  sni: id3.dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id3.dstb.cloud
+      Host: id3.myserver-prem.xyz
   interface-name: eth1
 - name: DanuAkamaiA1_Live_IP1
   type: trojan
